@@ -1,11 +1,11 @@
-if (localStorage.getItem('countDownDate')) {
-    // Khôi phục countDownDate từ localStorage
-    countDownDate = new Date(localStorage.getItem('countDownDate'));
-  } else {
-    // Nếu countDownDate chưa được lưu trữ, thiết lập giá trị mới
-    countDownDate = new Date();
-    countDownDate.setMinutes(countDownDate.getMinutes() + 10);
-  }
+if (localStorage.getItem("countDownDate")) {
+  // Khôi phục countDownDate từ localStorage
+  countDownDate = new Date(localStorage.getItem("countDownDate"));
+} else {
+  // Nếu countDownDate chưa được lưu trữ, thiết lập giá trị mới
+  countDownDate = new Date();
+  countDownDate.setMinutes(countDownDate.getMinutes() + 10);
+}
 // Update the count down every 1 second
 // var x = setInterval(function () {
 //   // Get today's date and time
@@ -30,6 +30,3 @@ if (localStorage.getItem('countDownDate')) {
 //   }
 //   localStorage.setItem('countDownDate', countDownDate);
 // }, 1000);
-
-
-
