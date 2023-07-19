@@ -98,8 +98,9 @@
             </div>
           </div>
         </div>
-        <div class="submitbtns">
-          <input type="submit" name="" value="Submit" class="mod_quiz-next-nav btn btn-primary" id="mod_quiz-next-nav" />
+        <div class="submitbtns" style="text-align: center;">
+          <input type="submit" name="submit" value="Submit" class="mod_quiz-next-nav btn btn-primary" id="mod_quiz-next-nav" />
+          
         </div>
         <input type="hidden" name="timeup" value="0" id="timeup" />
       </form>

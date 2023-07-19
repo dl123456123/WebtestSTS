@@ -80,6 +80,7 @@ footer {
     margin: 0px 0px 16px;
     padding: 12px 20px;
     font-family: sans-serif;
+    border: 1px solid;
   }
 
   .info {
@@ -89,10 +90,10 @@ footer {
     font-family: sans-serif;
     border: 1px solid;
   }
-  .info h3{
-    font-weight: bold;
-  }
   .question {
     margin: 0px 0px 26.8614px;
     font-style: normal;
+  }
+  .submitbtns {
+    padding-bottom: 10px;
   }

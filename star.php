@@ -15,6 +15,31 @@
 <!-- Header -->
 <?php include 'header.php'?>
 <!-- Body -->
+<div class="body">
+    <form>
+    <div class="input-group">
+        <span class="input-group-text">Username</span>
+        <input type="text" class="form-control" placeholder="Username">
+    </div>
+
+    <div class="input-group">
+    <span class="input-group-text">Email</span>
+        <input type="text" class="form-control" placeholder="Your Email">
+    </div>
+    </form>
+    <!-- Đoạn mã HTML -->
+    <button type="button" class="btn btn-primary" onclick="redirectToQuiz()">Làm bài ngay</button>
+
+    <!-- Đoạn mã JavaScript -->
+    <script>
+    function redirectToQuiz() {
+    // Sử dụng window.location.href để chuyển hướng sang trang "quizz.php"
+    window.location.href = "quizz.php";
+    }
+    </script>
+
+</div>
+
 <div id="body"></div>
 <!-- Footer -->
 <?php include 'footer.php'?>
