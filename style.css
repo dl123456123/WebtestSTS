@@ -85,12 +85,14 @@ footer {
   .info {
     background-color: #F8F9FA;
     margin: 0px 0px 26.8614px;
-    padding: 7.4615px;
+    padding: 12px ;
     font-family: sans-serif;
+    border: 1px solid;
   }
   .info h3{
     font-weight: bold;
   }
   .question {
     margin: 0px 0px 26.8614px;
+    font-style: normal;
   }
