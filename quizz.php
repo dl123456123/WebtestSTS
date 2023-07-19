@@ -24,7 +24,6 @@
         </div>
       </div>
       <form action="" method="post" enctype="multipart/form-data" accept-charset="utf-8" id="responseform">
-        <div>
           <div id="question" class="que multichoice deferredfeedback notyetanswered d-flex">
             <div class="info">
               <h3 class="no">Câu hỏi <span class="qno">1</span></h3>
@@ -42,7 +41,6 @@
             </div>
             <div class="content">
               <div class="formulation clearfix">
-                <h4 class="accesshide">Nội dung câu hỏi</h4>
                 <input type="hidden" name="q1198570:1_:sequencecheck" value="1" />
                 <div class="qtext">
                   <span>
@@ -101,7 +99,6 @@
               </div>
             </div>
           </div>
-        </div>
         <div class="submitbtns">
           <input type="submit" name="" value="Submit" class="mod_quiz-next-nav btn btn-primary"
             id="mod_quiz-next-nav" />
