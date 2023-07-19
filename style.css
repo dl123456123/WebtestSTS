@@ -1,0 +1,77 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    flex: 1;
+    text-align: center  ;
+  }
+footer {
+    background-color: #efefef;
+    color: #fff;
+    font-family: sans-serif;
+  }
+
+  .footer-logo {
+    text-align: center;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .contact_mxh li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .contact-info a {
+    color: #121212E6;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-nav {
+    font-style: normal;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+
+  }
+  .footer-nav a{
+    font-weight: bold;
+    color: #121212E6;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+   .bottom-footer {
+    font-family: sans-serif;
+    font-size: 12px;
+    color:#121212E6;
+    text-align: center;
+  }
+  .footer-divider {
+    border: none;
+    border-top: 3px solid #020202;
+    margin: 20px 0;
+  }
