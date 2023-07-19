@@ -1,7 +1,11 @@
-// Set the date we're counting down to
-var countDownDate = new Date();
-countDownDate.setMinutes(countDownDate.getMinutes() + 10);
-
+if (localStorage.getItem('countDownDate')) {
+    // Khôi phục countDownDate từ localStorage
+    countDownDate = new Date(localStorage.getItem('countDownDate'));
+  } else {
+    // Nếu countDownDate chưa được lưu trữ, thiết lập giá trị mới
+    countDownDate = new Date();
+    countDownDate.setMinutes(countDownDate.getMinutes() + 10);
+  }
 // Update the count down every 1 second
 var x = setInterval(function () {
   // Get today's date and time
@@ -24,4 +28,6 @@ var x = setInterval(function () {
     document.getElementById("quiz-time-left").innerHTML = "EXPIRED";
     document.getElementById("responseform").submit();
   }
+  localStorage.setItem('countDownDate', countDownDate);
 }, 1000);
+
