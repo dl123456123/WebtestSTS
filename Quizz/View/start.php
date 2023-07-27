@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <link rel="stylesheet" href="../Css/start.css">
+    <link rel="stylesheet" href="../../Quizz/Css/start.css">
     <title>STS Test</title>
 </head>
 
@@ -16,7 +16,7 @@
     <!-- Body -->
     <div class="container body-content">
         <div class="col-md-12">
-            <form action="" method="post">
+            <form action="?controller=start&action=start" method="post">
                 <div class="login-panel">
                     <div class="col-sm-12">
                         <div class="row">
@@ -35,12 +35,12 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="input-group">
-                                            <input class="form-control input" placeholder="Your Email" type="email" autocomplete="off" data-val="true" data-val-required="The Email field is required." id="Email" name="Email">
+                                            <input class="form-control input" placeholder="Your Email" type="email" autocomplete="off" data-val="true" data-val-required="The Email field is required." id="Email" name="Youremail">
                                         </div>
                                     </div>
 
                                     <div class="form-group">
-                                        <button type="submit" class="btn btn-login form-control" name="button" value="Start">Start</button>
+                                        <button type="submit" class="btn btn-login form-control" name="submit" value="Start">Start</button>
                                     </div>
                                 </div>
                             </div>

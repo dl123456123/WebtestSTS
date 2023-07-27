@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <link rel="stylesheet" href="../Css/footer.css">
+    <link rel="stylesheet" href="../../Quizz/Css/footer.css">
     <script src="index.js"></script>
     <title>STS Test</title>
 </head>
@@ -15,7 +15,7 @@
 
     <footer>
         <div class="footer-logo">
-            <img src="../Img/logo.png" alt="Logo">
+            <img src="../../Quizz/Img/logo.png" alt="Logo">
         </div>
 
         <div class="contact-info">
@@ -35,10 +35,10 @@
                 </div>
             </div>
             <ul class="contact_mxh">
-                <li style="color: #121212E6;"><a href="https://www.facebook.com/saigontechnology" target="_blank" rel="nofollow"><img width="30" height="30" src="../Img/facebook.png"> </a></li>
-                <li><a href="https://www.linkedin.com/company/saigon-technology" target="_blank" rel="nofollow"><img width="30" height="30" src="../Img/linkedin.png"></a></li>
-                <li><a href="https://twitter.com/saigontech" target="_blank" rel="nofollow"><img width="30" height="30" src="../Img/twitter.png"></a></li>
-                <li><a href="https://www.youtube.com/channel/UCMX0T4XTwHhmqML4TzY2ifg" target="_blank" rel="nofollow"><img width="30" height="30" src="../Img/youtube.png"></a></li>
+                <li style="color: #121212E6;"><a href="https://www.facebook.com/saigontechnology" target="_blank" rel="nofollow"><img width="30" height="30" src="../../Quizz/Img/facebook.png"> </a></li>
+                <li><a href="https://www.linkedin.com/company/saigon-technology" target="_blank" rel="nofollow"><img width="30" height="30" src="../../Quizz/Img/linkedin.png"></a></li>
+                <li><a href="https://twitter.com/saigontech" target="_blank" rel="nofollow"><img width="30" height="30" src="../../Quizz/Img/twitter.png"></a></li>
+                <li><a href="https://www.youtube.com/channel/UCMX0T4XTwHhmqML4TzY2ifg" target="_blank" rel="nofollow"><img width="30" height="30" src="../../Quizz/Img/youtube.png"></a></li>
             </ul>
         </div>
 
