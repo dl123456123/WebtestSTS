@@ -1,0 +1,257 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    flex: 1;
+    text-align: center  ;
+  }
+footer {
+    background-color: #efefef;
+    color: #fff;
+    font-family: sans-serif;
+  }
+
+  .footer-logo {
+    text-align: center;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .contact_mxh li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .contact-info a {
+    color: #121212E6;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-nav {
+    font-style: normal;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+
+  }
+  .footer-nav a{
+    font-weight: bold;
+    color: #121212E6;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+   .bottom-footer {
+    font-family: sans-serif;
+    font-size: 12px;
+    color:#121212E6;
+    text-align: center;
+    
+  }
+  .bottom-footer p {
+    margin-bottom: 0em;
+  }
+  .footer-divider {
+    border: none;
+    border-top: 3px solid #020202;
+    margin: 20px 0;
+  }
+
+body {
+    background-image: url(https://identity.saigontechnology.vn/LoginTemplate/image/background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-position: center center;
+}
+
+div {
+  word-wrap: break-word;
+}
+
+#quiz-timer-wrapper {
+  display: none;
+  position: sticky;
+  justify-content: end;
+  top: 65px;
+  z-index: 1020;
+}
+
+#quiz-timer-wrapper #quiz-timer {
+  border: 1px solid #ca3120;
+  background-color: #fff;
+}
+
+.ml-auto, .mx-auto {
+  margin-left: auto!important;
+}
+
+.pl-2, .px-2 {
+  padding-left: 0.5rem!important;
+}
+
+.pb-1, .py-1 {
+  padding-bottom: 0.25rem!important;
+}
+
+.mb-2, .my-2 {
+  margin-bottom: 0.5rem!important;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.que {
+  clear: left;
+  text-align: left;
+  margin: 0 auto 1.8em auto;
+}
+
+.que .info {
+  float: left;
+  width: 7em;
+  padding: 0.5em;
+  margin-bottom: 1.8em;
+  background-color: #f8f9fa;
+  border: 1px solid #cad0d7;
+  border-radius: 2px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.que .content {
+  margin: 0 0 0 8.5em;
+}
+
+.que .formulation {
+  color: #001a1e;
+  background-color: #e7f3f5;
+  border-color: #b8dce2;
+}
+
+.que .formulation, .que .outcome, .que .comment {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 0 solid transparent;
+  border-radius: 0.5rem;
+}
+
+.que .qtext {
+  margin-bottom: 1.5em;
+}
+
+.que .specificfeedback, .que .generalfeedback, .que .numpartscorrect .que .rightanswer, .que .im-feedback, .que .feedback, .que p {
+  margin: 0 0 0.5em;
+}
+
+.que .ablock {
+  margin: 0.7em 0 0.3em 0;
+}
+
+.no-overflow {
+  overflow: auto;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 650!important;
+}
+
+h3, .h3 {
+  font-size: 1.3rem!important;
+}
+
+.que h3.no {
+  margin: 0;
+  font-size: .8em;
+  line-height: 1;
+}
+
+.que .info>div {
+  font-size: .8em;
+  margin-top: 0.7em;
+}
+
+.que.multichoice .answer div.r0, .que.multichoice .answer div.r1 {
+  display: flex;
+  margin: 0.25rem 0;
+  align-items: flex-start;
+}
+
+.w-auto {
+  width: auto!important;
+}
+
+.d-flex {
+  display: flex!important;
+}
+
+.que.multichoice .answer div.r0 input, .que.multichoice .answer div.r1 input {
+  margin: 0.3rem 0.5rem;
+  width: 14px;
+  flex-shrink: 0;
+}
+
+#page.drawers .main-inner {
+  margin-bottom: 0!important;
+  border-radius: 0!important;
+}
+
+#page.drawers .main-inner {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  padding: 1.5rem 0.5rem
+rem
+;
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+  flex: 1 0 auto;
+}
+
+#topofscroll {
+  max-width: 1170px!important;
+  box-shadow: 0 2px 4px 0 #e9ecef;
+  padding: 1em;
+}
+
+#page {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.submitbtns {
+  display: flex;
+  justify-content: center;
+}
