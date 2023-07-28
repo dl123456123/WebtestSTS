@@ -12,13 +12,3 @@ header {
     flex: 1;
     text-align: center  ;
   }
-
-  body {
-    background-image: url(https://identity.saigontechnology.vn/LoginTemplate/image/background.png);
-    background-attachment: fixed;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-position: center center;
-}

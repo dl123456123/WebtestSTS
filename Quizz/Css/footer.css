@@ -65,13 +65,3 @@ footer {
     border-top: 3px solid #020202;
     margin: 20px 0;
   }
-
-  body {
-    background-image: url(https://identity.saigontechnology.vn/LoginTemplate/image/background.png);
-    background-attachment: fixed;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-position: center center;
-}

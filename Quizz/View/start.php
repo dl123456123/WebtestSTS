@@ -11,8 +11,6 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <?php include 'header.php' ?>
     <!-- Body -->
     <div class="container body-content">
         <div class="col-md-12">
@@ -51,9 +49,6 @@
         </div>
     </div>
 
-    <!-- Footer -->
-    <?php include 'footer.php' ?>
-    <script src="index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
 </body>
 

@@ -1,10 +1,11 @@
 body {
-    height: 100vh;
-    position: relative;
-    color: #34495e;
-    padding: 0!important;
-    margin: 0!important;
-    direction: "ltr";
+    background-image: url(https://identity.saigontechnology.vn/LoginTemplate/image/background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-position: center center;
     font-size: 14px;
 }
 
@@ -40,7 +41,7 @@ div {
     min-height: 320px;
     background-color: #fff;
     padding-top: 2em;
-    margin-top: 3em;
+    margin-top: 5em;
     border-radius: 10px !important;
     float: none;
     margin-left: auto;
@@ -50,14 +51,6 @@ div {
 
 element.style {
     border-right: 1px solid #E6E6E6;
-}
-
-.background-left {
-    margin-top: 30px;
-    background-image: url(/LoginTemplate/image/Icon_SVG-01.svg);
-    height: 380px;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .text-center {
