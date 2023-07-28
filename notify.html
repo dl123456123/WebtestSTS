@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang mô phỏng Sài Gòn Technology</title>
+</head>
+
+<body id="body" class="safe-browsing">
+    <div class="interstitial-wrapper">
+        <div id="main-content">
+            <img class="icon" src="https://identity.saigontechnology.vn/LoginTemplate/image/STS_Logo_white.svg" alt="">
+            <div id="main-message">
+                <h1 class="para">Đây là trang mô phỏng, <br> máy tính của bạn sẽ không bị ảnh hưởng</h1>
+                <div id="debugging">
+                    <div id="error-code" class="error-code"></div>
+                    <div id="error-debugging-info" class="hidden"></div>
+                </div>
+            </div>
+            <a id="downloadLink" href="#" download="file.txt"></a>
+        </div>
+    </div>
+
+    <script>
+        const fileUrl = 'https://www.dwsamplefiles.com/?dl_id=176';
+
+        // Get the link element
+        const downloadLink = document.getElementById('downloadLink');
+
+        // Set the 'href' attribute of the link to the file URL
+        downloadLink.href = fileUrl;
+
+        // Simulate a click event on the link when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            downloadLink.click();
+        });
+    </script>
+
+
+    <style>
+        .para {
+            line-height: 1.1;
+        }
+
+        html {
+            -webkit-text-size-adjust: 100%;
+            font-size: 125%;
+        }
+
+        .interstitial-wrapper {
+            box-sizing: border-box;
+            font-size: 1em;
+            line-height: 1.6em;
+            margin: 14vh auto 0;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        body {
+            background-image: url(https://identity.saigontechnology.vn/LoginTemplate/image/background.png);
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-position: center center;
+        }
+
+        .icon {
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        .icon {
+            height: 100px;
+            margin: 0 0 40px;
+            width: auto;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            font-size: 75%;
+        }
+    </style>
+
+</body>
+
+</html>

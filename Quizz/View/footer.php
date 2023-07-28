@@ -17,31 +17,6 @@
         <div class="footer-logo">
             <img src="../../Quizz/Img/logo.png" alt="Logo">
         </div>
-
-        <div class="contact-info">
-            <div class="contact">
-                <h4 style="font-weight: bold; color: #121212E6;">CONTACT US</h4>
-                <div class="Mail">
-                    <p style="color: #121212E6;"><i class="fas fa-envelope"></i> <a href="mailto:sales@saigontechnology.com">sales@saigontechnology.com</a></p>
-                </div>
-                <div class="Sales">
-                    <p style="color: #121212E6;"><i class="fas fa-phone"></i> Sales <a href="tel:(+84) 88873 9363">(+84)
-                            88873
-                            9363</a></p>
-                </div>
-                <div class="Careers">
-                    <p style="color: #121212E6;"><i class="fas fa-briefcase"></i> Careers <a href="tel:(+84) 2838 110 001">(+84)
-                            2838 110 001</a></p>
-                </div>
-            </div>
-            <ul class="contact_mxh">
-                <li style="color: #121212E6;"><a href="https://www.facebook.com/saigontechnology" target="_blank" rel="nofollow"><img width="30" height="30" src="../../Quizz/Img/facebook.png"> </a></li>
-                <li><a href="https://www.linkedin.com/company/saigon-technology" target="_blank" rel="nofollow"><img width="30" height="30" src="../../Quizz/Img/linkedin.png"></a></li>
-                <li><a href="https://twitter.com/saigontech" target="_blank" rel="nofollow"><img width="30" height="30" src="../../Quizz/Img/twitter.png"></a></li>
-                <li><a href="https://www.youtube.com/channel/UCMX0T4XTwHhmqML4TzY2ifg" target="_blank" rel="nofollow"><img width="30" height="30" src="../../Quizz/Img/youtube.png"></a></li>
-            </ul>
-        </div>
-
         <div class="footer-nav">
             <ul>
                 <li><a href="#">SERVICES</a></li>
