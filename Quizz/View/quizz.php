@@ -36,7 +36,7 @@
                                 <div class="formulation clearfix" id="yui_3_17_2_1_1690352235539_186">
                                     <div class="qtext">
                                         <p id="quest">Các thẻ (tag) nào được dùng để mô tả một danh
-                                            sách không thứ tự (danh sách với bullets)<br></p>
+                                            sách không thứ tự (danh sách với bullets) ?<br></p>
                                     </div>
                                     <div class="ablock no-overflow visual-scroll-x">
                                         <div class="prompt">Chọn một:</div>

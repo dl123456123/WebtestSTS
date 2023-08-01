@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <link rel="stylesheet" href="../../Quizz/Css/footer.css">
+    <link rel="stylesheet" href="../../Quizz/Css/footer.css?v=<?php echo time(); ?>">
     <script src="index.js"></script>
     <title>STS Test</title>
 </head>
@@ -32,8 +32,9 @@
             </ul>
         </div>
         <hr class="footer-divider">
-        <div class="bottom-footer">
-            <p> © Copyright 2023 by STS Software Technology JSC, Leading Software Outsourcing Company in Vietnam. All
+        <div class="bottom-footer" align="center">
+            <p> © Copyright 2023 by STS Software Technology JSC, Leading Software
+                Outsourcing Company in Vietnam. All
                 Rights
                 Reserved.</p>
         </div>

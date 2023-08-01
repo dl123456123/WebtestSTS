@@ -59,6 +59,7 @@ footer {
   }
   .bottom-footer p {
     margin-bottom: 0em;
+    padding-bottom: 10px;
   }
   .footer-divider {
     border: none;
