@@ -10,6 +10,7 @@ class QuizzController extends BaseController
 
     public function submit()
     {
+        session_destroy();
         return $this->view('end');
     }
 }

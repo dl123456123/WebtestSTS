@@ -22,15 +22,23 @@ class StartController extends BaseController
         if (isset($_POST["submit"])) {
             $username = $_POST["Yourname"];
             $useremail = $_POST["Youremail"];
+            $_SESSION["useremail"] = $useremail;
             $checkuser = $this->StartModel->checkUser($useremail, $username);
             if (!$checkuser) {
-                $_SESSION["useremail"] = $useremail;
                 $this->StartModel->saveUser($useremail, $username);
             }
-            $numbers = range(1, 77);
-            shuffle($numbers);
-            $randomNumbers = array_slice($numbers, 0, 10);
-            $array = $this->QuizzModel->loadQuiz($randomNumbers);
+            if (!isset($_SESSION["quiz"])) {
+                $numbers = range(1, 77);
+                shuffle($numbers);
+                $randomNumbers = array_slice($numbers, 0, 10);
+                $array = $this->QuizzModel->loadQuiz($randomNumbers);
+
+                // Lưu danh sách câu hỏi vào phiên làm việc
+                $_SESSION["quiz"] = $array;
+            } else {
+                // Lấy lại danh sách câu hỏi từ phiên làm việc
+                $array = $_SESSION["quiz"];
+            }
             return $this->view('quizz', ["quiz" => $array]);
         }
     }
