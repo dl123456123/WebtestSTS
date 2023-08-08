@@ -3,7 +3,6 @@ class BaseController
 {
     const VIEW_FODER_NAME = 'View';
     const MODEL_FODER_NAME = 'Model';
-    private $Status = false;
 
     protected function view($viewPath, array $data = [])
     {
